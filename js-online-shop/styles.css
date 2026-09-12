@@ -1,0 +1,36 @@
+/*Center the title of the page*/
+h1 {
+  text-align: center;
+}
+
+/*Navigation bar container*/
+nav {
+  background-color: #549272;
+  padding: 10px;
+}
+
+/* Make the list items display horizontally */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/*Style the links inside the navigation bar */
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*hover effect for links */
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Center the navigation bar */
+nav ul {
+  justify-content: center;
+}
